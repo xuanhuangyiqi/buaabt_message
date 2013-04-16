@@ -29,6 +29,5 @@ function state_change()
             var noti_text =  message.childNodes[5].innerText;
             if (noti_text != '您有0条新消息') show(noti_text);
         }
-        else alert("Problem retrieving data:" + xhr.statusText + xhr.status);
     }
 }
